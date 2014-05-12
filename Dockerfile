@@ -10,7 +10,7 @@ FROM dockerfile/ubuntu
 # Install Redis.
 RUN \
   cd /tmp && \
-  wget -O redis-table.tar.gz http://download.redis.io/releases/redis-2.6.17.tar.gz && \
+  wget -O redis-stable.tar.gz http://download.redis.io/releases/redis-2.6.17.tar.gz && \
   tar xvzf redis-stable.tar.gz && \
   cd redis-stable && \
   make && \
